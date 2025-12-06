@@ -93,67 +93,6 @@ export const projects: Project[] = [
     liveUrl: "https://devpost.com/software/billrewards",
     featured: false
   },
-  {
-    id: "byteroot",
-    title: "Byteroot",
-    description: "A coding ecosystem enabling users to post AI-validated questions and collaborate on solutions.",
-    longDescription: "Revolutionized the coding ecosystem by developing ByteRoot, enabling users to post AI-validated questions and create an ecosystem to solve those questions and have group discussions. Seamlessly integrated Piston API to fetch compiler outputs.",
-    technologies: ["OpenAI", "Next.js", "TypeScript", "Node.js", "Express", "PostgreSQL", "Docker", "TailwindCSS", "Prisma", "Redis", "JWT"],
-    achievements: [
-      "Created a platform for posting AI-validated coding questions",
-      "Built an ecosystem for collaborative problem-solving and group discussions",
-      "Integrated Piston API for compiler outputs, enhancing code execution by 40%"
-    ],
-    image: "/images/projects/byteroot/byteroot.jpg",
-    github: "https://github.com/achyut21/byteroot",
-    featured: false
-  },
-  {
-    id: "cryptovault-ipfs",
-    title: "CryptoVault IPFS",
-    description: "A decentralized backup and recovery system leveraging IPFS to securely store encrypted files.",
-    longDescription: "Developed a decentralized backup and recovery system that combines AES symmetric encryption with RSA digital signatures to ensure confidential and tamper-proof file storage on IPFS. The system allows users to encrypt files locally, store them securely, and retrieve them using unique CIDs with metadata.",
-    technologies: ["IPFS", "Helia", "AES-256-CBC", "RSA", "Cryptography", "Node.js", "Express", "React", "Vite", "Multer"],
-    achievements: [
-      "Created a secure encryption system using AES-256-CBC for file encryption",
-      "Implemented RSA digital signatures for metadata integrity verification",
-      "Developed a user-friendly two-step recovery process for seamless file retrieval",
-      "Built a decentralized storage solution with complete privacy control"
-    ],
-    image: "/images/projects/cryptovault-ipfs/cryptovault-ipfs.webp",
-    github: "https://github.com/Achyut21/CVIPFS",
-    featured: false
-  },
-  {
-    id: "neunotes",
-    title: "NeuNotes",
-    description: "A comprehensive academic notes sharing platform facilitating knowledge exchange among students and faculty.",
-    longDescription: "Designed and developed NeuNotes, a collaborative platform for sharing academic content with role-based access control. The system features course organization, notes upload/preview, search functionality, ratings, comments, and analytics dashboards.",
-    technologies: ["MySQL", "React", "Vite", "Node.js", "Express", "TailwindCSS", "Zustand", "Axios", "Multer", "Bcrypt", "REST API"],
-    achievements: [
-      "Built a comprehensive platform with role-based access for students, faculty, and admins",
-      "Implemented a sophisticated database structure with 12 tables, stored procedures, and triggers",
-      "Created a full-featured notes management system with ratings, comments, and favorites",
-      "Developed an intuitive UI for browsing, uploading, and managing academic content"
-    ],
-    image: "/images/projects/neunotes/neunotes.webp",
-    github: "https://github.com/achyut21/neunotes",
-    featured: false
-  },
-  {
-    id: "noteit",
-    title: "NoteIT",
-    description: "A mobile app for sharing and accessing study notes and resources with social features and gamification.",
-    longDescription: "Developed NoteIT, an Android mobile application that allows students to share and access study notes and educational resources. The app features user authentication, PDF uploading/downloading, badge rewards for engagement, and an intuitive navigation system with fragments.",
-    technologies: ["Android Studio", "Java", "Firebase", "Material Design", "XML"],
-    achievements: [
-      "Created 9 activities and 4 fragments for comprehensive app functionality",
-      "Implemented secure user authentication and data storage with Firebase",
-      "Designed an engaging user interface with gamification elements like badges",
-      "Built a robust PDF upload and retrieval system for educational resources"
-    ],
-    image: "/images/projects/noteit/noteit.jpg",
-    github: "https://github.com/Achyut21/Note_IT-Note-sharing-APP-",
-    featured: false
-  }
+
+
 ];

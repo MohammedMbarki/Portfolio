@@ -11,8 +11,8 @@ export interface Education {
   
   export const education: Education[] = [
     {
-      id: "northeastern",
-      degree: "Master's in Computer Science",
+      id: "middle school ",
+      degree: "",
       institution: "Northeastern University",
       location: "Boston, Massachusetts, USA",
       startDate: "January 2025",

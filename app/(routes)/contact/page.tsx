@@ -1,4 +1,7 @@
+
+
 "use client";
+
 
 import { motion } from "framer-motion";
 import { Github, Linkedin, Mail, Phone } from "lucide-react";
@@ -90,7 +93,7 @@ export default function ContactPage() {
                 <div className="mt-auto pt-6">
                   <h3 className="font-medium mb-2">Current Location</h3>
                   <p className="text-sm text-muted-foreground">
-                    Boston, Massachusetts, USA
+                    Tangier, Morroco
                   </p>
                 </div>
               </CardContent>

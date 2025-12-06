@@ -27,7 +27,6 @@ export const skills: Record<SkillCategory, Skill[]> = {
     { name: 'Next.js', category: 'Frameworks/Libraries', logoKey: 'nextjs' },
     { name: 'Flask', category: 'Frameworks/Libraries', logoKey: 'flask' },
     { name: 'Tailwind CSS', category: 'Frameworks/Libraries', logoKey: 'tailwindcss' },
-    { name: 'Android SDK', category: 'Frameworks/Libraries', logoKey: 'android' },
     { name: 'Three.js', category: 'Frameworks/Libraries', logoKey: 'threejs' },
     { name: 'Flutter', category: 'Frameworks/Libraries', logoKey: 'flutter' },
     { name: 'React Native', category: 'Frameworks/Libraries', logoKey: 'react' },
@@ -42,10 +41,8 @@ export const skills: Record<SkillCategory, Skill[]> = {
  
   ],
     'operating Systems': [
-    { name: 'Linux', category: 'operating Systems', logoKey: 'linux' },
-    { name: 'Windows', category: 'operating Systems', logoKey: 'windows' },
-    { name: 'MacOS', category: 'operating Systems', logoKey: 'apple' },
- 
+    { name: 'Linux', category: 'operating Systems', logoKey: 'linux' }, 
+    
   ],
 
 };

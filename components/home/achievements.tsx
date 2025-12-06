@@ -14,47 +14,33 @@ interface Achievement {
 const achievements: Achievement[] = [
   {
     icon: <Trophy className="h-6 w-6" />,
-    title: "Winner of Hacker House, Goa ($1500 Prize)",
+    title: "Local Winner of NASA Space Apps Challenge Ben Guerir (2025)",
     colorClass: "text-yellow-600 dark:text-yellow-400",
   },
   {
-    icon: <Medal className="h-6 w-6" />,
-    title: "Winner of Move it with Aptos Hackathon ($600 Prize)",
+    icon: <Trophy className="h-6 w-6" />,
+    title: "Local Winner of World Robot Olympiad (WRO) Morocco (2024)",
     colorClass: "text-blue-600 dark:text-blue-400",
   },
   {
-    icon: <Award className="h-6 w-6" />,
-    title: "Winner of HackSRM 5.0 ($500 Prize)",
+    icon: <Code className="h-6 w-6" />,
+    title: "Participant in Moroccan Olympiad in Informatics (MOI) Selection Test (2025)",
     colorClass: "text-green-600 dark:text-green-400",
   },
   {
-    icon: <Trophy className="h-6 w-6" />,
-    title: "Winner of Appthon 1.0",
+    icon: <Award className="h-6 w-6" />,
+    title: "Participant in WRO International Final in Izmir, Turkey (2024)",
     colorClass: "text-purple-600 dark:text-purple-400",
   },
   {
-    icon: <BookOpen className="h-6 w-6" />,
-    title: "Convener of ADD (App Design & Development Club)",
-    colorClass: "text-indigo-600 dark:text-indigo-400",
-  },
-  {
     icon: <Cpu className="h-6 w-6" />,
-    title: "DDoS Attack Detection Researcher",
+    title: "Competitor in Huawei Cloud Developer Competition Spark Infinity (2025)",
     colorClass: "text-red-600 dark:text-red-400",
   },
+
   {
-    icon: <Code className="h-6 w-6" />,
-    title: "Technical Convener of University Student Council",
-    colorClass: "text-teal-600 dark:text-teal-400",
-  },
-  {
-    icon: <Gamepad className="h-6 w-6" />,
-    title: "3x Valorant Tournament Champion",
-    colorClass: "text-amber-600 dark:text-amber-400",
-  },
-  {
-    icon: <Zap className="h-6 w-6" />,
-    title: "Technical Executive of Infinitus (National Level Fest)",
+    icon: <Medal className="h-6 w-6" />,
+    title: "Participant in FIRST LEGO League Off-Season Competition (2023/2024)",
     colorClass: "text-cyan-600 dark:text-cyan-400",
   },
 ];
@@ -106,10 +92,10 @@ export function Achievements() {
         </div>
         
         <div className="mt-10 inline-flex flex-wrap justify-center gap-2">
-          <Badge variant="secondary" className="text-sm py-1.5 px-3">Technical Leadership</Badge>
-          <Badge variant="secondary" className="text-sm py-1.5 px-3">Hackathon Winner</Badge>
-          <Badge variant="secondary" className="text-sm py-1.5 px-3">Research</Badge>
-          <Badge variant="secondary" className="text-sm py-1.5 px-3">Gaming</Badge>
+          <Badge variant="secondary" className="text-sm py-1.5 px-3">STEAM Innovation</Badge>
+          <Badge variant="secondary" className="text-sm py-1.5 px-3">Robotics Engineering</Badge>
+          <Badge variant="secondary" className="text-sm py-1.5 px-3">Strategic Problem Solving</Badge>
+          <Badge variant="secondary" className="text-sm py-1.5 px-3">Competitive Spirit</Badge>
         </div>
       </div>
     </section>

@@ -70,7 +70,7 @@ export function Hero() {
                 transition={{ duration: 0.5 }}
               >
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
-                  Hi, I&apos;m Achyut Katiyar
+                  Hi, I&apos;m Mohamed Mbarki
                 </h1>
               </motion.div>
               <motion.div
@@ -122,7 +122,7 @@ export function Hero() {
               </Button>
               <Button variant="outline" size="lg" asChild>
                 <a 
-                  href="/resume.pdf" 
+                  href="/cv/resume.pdf" 
                   download="Achyut_Katiyar_Resume.pdf" 
                   target="_blank"                      
                   rel="noopener noreferrer"

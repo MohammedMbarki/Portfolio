@@ -220,7 +220,7 @@ export function Navbar() {
                           href="/"
                           className="font-display text-2xl font-bold transition-colors hover:text-primary"
                         >
-                          Achyut Katiyar
+                          Mohamed Mbarki
                         </Link>
                         <ThemeSwitch />
                       </div>
