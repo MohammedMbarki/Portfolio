@@ -26,8 +26,7 @@ export function SkillsShowcase() {
             Technical Skills
           </h2>
           <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-            My expertise across various technologies and tools
-          </p>
+            My expertise and training cover various technologies and tools.          </p>
         </motion.div>
 
         <motion.div

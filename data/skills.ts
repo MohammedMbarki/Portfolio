@@ -18,18 +18,14 @@ export const skills: Record<SkillCategory, Skill[]> = {
     { name: 'JavaScript', category: 'Languages', logoKey: 'javascript' },
     { name: 'TypeScript', category: 'Languages', logoKey: 'typescript' },
     { name: 'Dart', category: 'Languages', logoKey: 'dart' },
-    { name: 'SQL', category: 'Languages', logoKey: 'mysql' },
-    { name: 'Go', category: 'Languages', logoKey: 'go' },
   ],
   'Frameworks/Libraries': [
     { name: 'React.js', category: 'Frameworks/Libraries', logoKey: 'react' },
     { name: 'Node.js', category: 'Frameworks/Libraries', logoKey: 'nodejs' },
     { name: 'Next.js', category: 'Frameworks/Libraries', logoKey: 'nextjs' },
-    { name: 'Flask', category: 'Frameworks/Libraries', logoKey: 'flask' },
     { name: 'Tailwind CSS', category: 'Frameworks/Libraries', logoKey: 'tailwindcss' },
     { name: 'Three.js', category: 'Frameworks/Libraries', logoKey: 'threejs' },
     { name: 'Flutter', category: 'Frameworks/Libraries', logoKey: 'flutter' },
-    { name: 'React Native', category: 'Frameworks/Libraries', logoKey: 'react' },
   ],
 
 

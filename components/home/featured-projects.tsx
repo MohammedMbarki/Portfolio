@@ -111,7 +111,7 @@ export function FeaturedProjects() {
           </div>
           <Button asChild variant="outline" className="mt-8">
             <Link href="/projects">
-              View All Projects
+              View All Projects.
               <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
           </Button>

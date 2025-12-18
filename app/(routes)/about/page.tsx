@@ -34,13 +34,12 @@ export default function AboutPage() {
             <h2 className="text-2xl font-bold mb-4">Who I Am</h2>
             <div className="space-y-4 text-muted-foreground">
               <p>
-                I&apos;m Mohamed Mbarki, a Full Stack Developer with a passion for creating innovative web applications and exploring blockchain technologies. I&apos;m currently pursuing a Master&apos;s in Computer Science at Northeastern University, where I continue to expand my knowledge and skills.
+                Hey there! I’m Mohamed. I’m currently a 10th grader at Alwah High School, but you’ll usually find me lost in code long after the school day ends. For me, programming isn't just a hobby—it’s a playground where I get to bring my wildest ideas to life.
               </p>
               <p>
-                With expertise in Next.js, React, and various blockchain technologies, I enjoy building scalable and user-friendly applications that solve real-world problems. My background in computer science has given me a strong foundation in algorithms, data structures, and system design, which I apply to create efficient and maintainable code.
-              </p>
+                I’m obsessed with building things that actually work, whether it’s a mobile app using Flutter or a web platform with Next.js . I even had the chance to lead the development of my school’s official website! While I love building modern apps.</p>
               <p>
-                I&apos;m particularly interested in the intersection of web development and blockchain technology, where I&apos;ve developed several projects that leverage the power of decentralized systems to create secure and transparent applications.
+                I’ve always been driven by a good challenge. Winning the local NASA Space Apps award and traveling to Turkey as a WRO international finalist were absolute highlights for me. 
               </p>
             </div>
 
@@ -104,37 +103,37 @@ export default function AboutPage() {
                   <li className="flex items-start">
                     <span className="text-primary mr-2 font-bold">•</span>
                     <span>
-                      Led University&apos;s Technical Team as Convener, increasing student engagement by 40% through committee formation and industry-aligned website redesigns.
+                      Local Winner of NASA Space Apps Challenge Ben Guerir (2025)
                     </span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-primary mr-2 font-bold">•</span>
                     <span>
-                      Served as a Board Member of the APP Design and Development Club, mentoring newcomers and improving skills by 60%.
+                      Local Winner of World Robot Olympiad (WRO) Morocco (2024)
                     </span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-primary mr-2 font-bold">•</span>
                     <span>
-                      Won $1500 Nillion Track Prize at Hacker House Goa 2024.
+                      Participant in Moroccan Olympiad in Informatics (MOI) Selection Test (2025)
                     </span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-primary mr-2 font-bold">•</span>
                     <span>
-                      Awarded $600 at Move it with Aptos event.
+                      Participant in WRO International Final in Izmir, Turkey (2024)
                     </span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-primary mr-2 font-bold">•</span>
                     <span>
-                      Received $500 Marbelism Track Prize at HACKSRM 2.0 2024.
+                      Competitor in Huawei Cloud Developer Competition Spark Infinity (2025)
                     </span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-primary mr-2 font-bold">•</span>
                     <span>
-                      Won $100 at APPATHON 2022.
+                      Participant in FIRST LEGO League Off-Season Competition (2023/2024)
                     </span>
                   </li>
                 </ul>

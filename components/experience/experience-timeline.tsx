@@ -20,7 +20,7 @@ export function ExperienceTimeline() {
   // Function to get icon based on experience type
   const getExperienceIcon = (type: string | undefined) => {
     switch(type) {
-      case 'research':
+      case 'competition':
         return <Microscope className="h-5 w-5" />;
       case 'work':
         return <Briefcase className="h-5 w-5" />;
@@ -56,7 +56,7 @@ export function ExperienceTimeline() {
               <TabsTrigger value="all" onClick={() => setActiveTab("all")}>All</TabsTrigger>
               <TabsTrigger value="work" onClick={() => setActiveTab("work")}>Work</TabsTrigger>
               <TabsTrigger value="leadership" onClick={() => setActiveTab("leadership")}>Leadership</TabsTrigger>
-              <TabsTrigger value="research" onClick={() => setActiveTab("research")}>Research</TabsTrigger>
+              <TabsTrigger value="competiton" onClick={() => setActiveTab("competition")}>competition </TabsTrigger>
             </TabsList>
           </Tabs>
         </div>

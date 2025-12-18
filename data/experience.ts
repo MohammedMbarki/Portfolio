@@ -1,84 +1,97 @@
-// data/experience.ts
 export interface Experience {
-    id: string;
-    title: string;
-    company: string;
-    location: string;
-    startDate: string;
-    endDate: string;
-    description: string;
-    achievements: string[];
-    type?: 'work' | 'research' | 'education' | 'leadership';
+  id: string;
+  title: string;
+  company: string;
+  location: string;
+  startDate: string;
+  endDate: string;
+  description: string;
+  achievements: string[];
+  type?: 'work' | 'competition' | 'education' | 'leadership';
+}
+
+export const experiences: Experience[] = [
+  // Work & Leadership Positions
+{
+    id: "alwah-dev",
+    title: "Lead Full Stack Developer",
+    company: "Alwah High School",
+    location: "Tangier, Morocco",
+    startDate: "June 2025",
+    endDate: "Present",
+    description: "Architecting 'Alwah.ma', a centralized digital ecosystem dedicated to students and clubs for sharing achievements, managing academic resources, and facilitating school-client interaction.",
+    achievements: [
+      "Developed core platform modules including 'EduShare' for pedagogical resources, 'Highlights' for archiving club news.",
+      "Implemented 'AlwahGPT', an AI-driven agent feature capable of generating recommendation letters and assisting students.",
+      "Built a secure Student Portal featuring Massar ID authentication, real-time notifications, and personalized course schedule management.",
+      "Engineered administrative features for online student registration, scholarship filtering, and extra-curricular activity reservations."
+    ],
+    type: 'work'
+},
+{
+    id: "alwah-vp",
+    title: "Vice President of School Council",
+    company: "Alwah High School",
+    location: "Tangier, Morocco",
+    startDate: "October 2024",
+    endDate: "June 2025",
+    description: "Elected student representative responsible for bridging the gap between the student body and administration.",
+    achievements: [
+      "Spearheaded student initiatives to improve campus life, educational resources, and extracurricular activities",
+      "Acted as the primary liaison between students and the administration, facilitating effective communication strategies",
+      "Organized and directed school-wide events, coordinating teams of volunteers to ensure smooth execution",
+      "Advocated for student needs in council meetings, resulting in tangible improvements to school facilities"
+    ],
+    type: 'leadership'
+  },
+  {
+    id: "freelance-dev",
+    title: "Freelance Web Developer",
+    company: "Remote / Self-Employed",
+    location: "Remote",
+    startDate: "november 2025",
+    endDate: "Present",
+    description: "Delivering bespoke, high-performance web solutions for diverse clients using the modern JavaScript stack.",
+    achievements: [
+      "Developed responsive, SEO-optimized websites using Next.js, React, and Tailwind CSS",
+      "Transformed client requirements into functional, deployed applications with a focus on clean code and performance",
+      "Integrated Headless CMS solutions to allow clients to manage their own content easily",
+      "Optimized web vitals to ensure fast load times and superior user experience across all devices"
+    ],
+    type: 'work'
+  },
+
+  // Research & Competitions (Innovation)
+  {
+    id: "nasa-space-apps",
+    title: "Local Winner (1st Place)",
+    company: "NASA Space Apps Challenge",
+    location: "Ben Guerir, Morocco",
+    startDate: "October 2025",
+    endDate: "October 2025",
+    description: "victory in the world's largest hackathon by developing 'Stellar Stories', an interactive space weather game.",
+    achievements: [
+      "Secured 1st Place (Local Winner) by developing an educational game that visualizes complex NASA scientific data",
+      "Engineered the game logic and interactive frontend, ensuring a seamless and engaging user experience",
+      "Collaborated under strict 48-hour hackathon deadlines to prototype, test, and pitch a working solution",
+      "Translated complex space weather concepts into accessible gameplay mechanics for students"
+    ],
+    type: 'competition'
+  },
+  {
+    id: "wro-finalist",
+    title: "International Finalist ",
+    company: "World Robot Olympiad (WRO)",
+    location: "Izmir, Turkey",
+    startDate: "2024",
+    endDate: "2024",
+    description: "Represented Morocco at the international level after winning the National Championship in robotics.",
+    achievements: [
+      "Qualified for the International Final in Turkey after securing the National Championship title in Morocco",
+      "Designed and programmed autonomous robots to solve complex algorithmic challenges under strict time constraints",
+      "Optimized robot sensor integration and pathfinding algorithms to achieve maximum precision and speed",
+      "Demonstrated resilience and problem-solving skills in a high-stakes international competitive environment"
+    ],
+    type: 'competition'
   }
-  
-  export const experiences: Experience[] = [
-    // Regular job positions
-    {
-      id: "full-stack-dev",
-      title: "Full Stack Web Developer",
-      company: "SRM University - AP",
-      location: "Vijayawada, India",
-      startDate: "January 2024",
-      endDate: "June 2024",
-      description: "Designed and implemented a web portal for faculty-student collaboration in UROP and Capstone projects.",
-      achievements: [
-        "Developed a full-stack web portal using React.js, Node.js, and MongoDB for 3000+ UROP/Capstone students",
-        "Enabled task tracking, document sharing, and access control to streamline collaboration",
-        "Optimized and enhanced UI/UX, reducing page load time by 60% and improving responsiveness across devices",
-        "Achieved 75% grading accuracy improvement and 50% evaluation efficiency boost through workflow automation"
-      ],
-      type: 'work'
-    },
-    {
-      id: "tech-intern",
-      title: "Technical Intern",
-      company: "SRM University - AP",
-      location: "Vijayawada, India",
-      startDate: "October 2023",
-      endDate: "June 2024",
-      description: "Directed technical operations for university events, encompassing website development and promotional materials.",
-      achievements: [
-        "Orchestrated technical operations for 30+ university events, designing and deploying websites with integrated payment gateways",
-        "Increased event participation by 25% through effective technical solutions",
-        "Engineered dashboards and automated flows, increasing user satisfaction by 75% and cutting coordination time by 60%",
-        "Ensured smooth execution through cross-functional collaboration, achieving 95% client satisfaction"
-      ],
-      type: 'work'
-    },
-    // Research positions
-    {
-      id: "ddos-detection",
-      title: "DDoS Attack Detection using Deep Learning",
-      company: "SRM University - AP",
-      location: "Vijayawada, India",
-      startDate: "March 2023",
-      endDate: "May 2023",
-      description: "Research under Dr. Sambit Kumar Mishra on detecting DDoS attacks in cloud environments using deep learning techniques.",
-      achievements: [
-        "Developed advanced anomaly detection algorithms, achieving an impressive 82% accuracy in threat detection",
-        "Swiftly implemented countermeasures to thwart potential attacks, resulting in a 40% reduction in security breaches",
-        "Applied deep learning models to identify patterns in network traffic for real-time detection of suspicious activities",
-        "Created a scalable monitoring system to handle large volumes of cloud traffic with minimal false positives"
-      ],
-      type: 'research'
-    },
-    {
-      id: "education-prediction",
-      title: "Higher Education Prediction Algorithm",
-      company: "SRM University - AP",
-      location: "Vijayawada, India",
-      startDate: "June 2022",
-      endDate: "October 2022",
-      description: "Research under Prof. T. Ragunathan on predicting student acceptance into Master's programs based on academic performance metrics.",
-      achievements: [
-        "Developed an AI ML model predicting student acceptance into Masters PG College with 78% accuracy",
-        "Trained the model on diverse exam scores to suggest colleges based on proximity to students' IELTS, GRE, and TOEFL scores",
-        "Led data acquisition and cleansing, ensuring dataset integrity with a 95% accuracy rate",
-        "Optimized the algorithm for efficiency and reliability in making personalized education recommendations"
-      ],
-      type: 'research'
-    },
-
-
-
-  ];
+];

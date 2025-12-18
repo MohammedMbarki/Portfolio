@@ -38,8 +38,7 @@ export function Footer() {
           <div className="space-y-4">
             <h3 className="text-lg font-bold">Mohamed Mbarki</h3>
             <p className="text-sm text-muted-foreground max-w-xs">
-              Full Stack Developer & Machine Learning Enthusiast based in Boston,
-              specialized in creating modern web applications and blockchain solutions.
+            10th-grade developer and computer science enthusiast dedicated to clean logic. I thrive on technical challenges and always seek ways to innovate within the tech ecosystem.
             </p>
           </div>
           
@@ -68,7 +67,7 @@ export function Footer() {
                   href="/blog" 
                   className="text-sm text-muted-foreground hover:text-primary transition-colors"
                 >
-                  Blog
+                  certificates
                 </Link>
               </li>
               <li>
@@ -145,7 +144,7 @@ export function Footer() {
             <div className="text-sm text-muted-foreground flex items-center gap-1.5">
               <span>Built with</span>
               <Heart className="h-3.5 w-3.5 fill-primary text-primary" />
-              <span>using Next.js & Tailwind</span>
+              <span>using Next.js & Tailwind & Resned</span>
             </div>
           </div>
         </motion.div>

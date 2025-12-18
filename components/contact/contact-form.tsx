@@ -51,17 +51,38 @@
       },
     });
 
-    // Form submission handler
-    function onSubmit(values: z.infer<typeof formSchema>) {
-      setIsSubmitting(true);
+async function onSubmit(values: z.infer<typeof formSchema>) {
+    setIsSubmitting(true);
 
-      setTimeout(() => {
-        console.log(values);
-        setIsSubmitting(false);
-        setIsSubmitted(true);
-        form.reset();
-      }, 1500);
+    try {
+      // CORRECTION 1 : L'URL doit être /api/send (car votre fichier est dans app/api/send/route.tsx)
+      const response = await fetch("/api/send", {
+        
+        // CORRECTION 2 : Cette ligne est OBLIGATOIRE pour éviter l'erreur "GET/HEAD method cannot have body"
+        method: "POST", 
+        
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(values),
+      });
+
+      if (!response.ok) {
+        // Cela permet de voir la vraie erreur dans la console si le serveur rejette la demande
+        const errorData = await response.json();
+        console.error("Erreur serveur:", errorData);
+        throw new Error("Erreur lors de l'envoi");
+      }
+
+      setIsSubmitted(true);
+      form.reset();
+    } catch (error) {
+      console.error(error);
+      alert("Une erreur est survenue lors de l'envoi.");
+    } finally {
+      setIsSubmitting(false);
     }
+  }
 
     return (
       <AnimatePresence mode="wait">

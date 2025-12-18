@@ -13,8 +13,9 @@ export function Hero() {
   const displayedSkills = [
     "Computer Science Learner",
     "Passionate About Coding",
-    "10th grade Student",
-    "vibe coder"
+    "10th grade Science Student",
+    "Aspiring Tech-Driven Student",
+    "Tech Future CS Major",
   ];
 
   // Parallax effect setup
@@ -102,9 +103,7 @@ export function Hero() {
                 transition={{ duration: 0.5, delay: 0.2 }}
                 className="max-w-[600px] text-muted-foreground md:text-xl"
               >
-            Hi , I'm M'Barki Mohamed passionate about computer science from morocco. Currently pursuing a Master&apos;s in Computer Science
-                at Northeastern University.
-              </motion.p>
+                I am a student of Class 10 and like coding, technology very much so always in search of new challenges. I pair a love of the logical with an insatiable desire to know more, hoping to have some impact on tech humankind.          </motion.p>
             </div>
             
             {/* Action Buttons */}
